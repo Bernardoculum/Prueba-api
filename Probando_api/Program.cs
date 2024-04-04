@@ -30,6 +30,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
+    // probando
     app.UseSwaggerUI();
 }
 
