@@ -32,6 +32,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     // probando
     app.UseSwaggerUI();
+    // probando en cotrolladores
 }
 
 app.UseAuthorization();
